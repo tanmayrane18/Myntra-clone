@@ -1,0 +1,915 @@
+body{
+    font-family: 'Roboto';
+    /* font-family: 'Cormorant Garamond', serif; */
+   
+}
+
+.navbar{
+    background-color: white;
+    box-shadow: 0px 3px 10px rgb(234, 236, 242);
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    
+}
+
+.bor{
+    color: white;
+}
+
+
+/* For fixed dropmenu button */
+
+.btnFlat20{
+    position: fixed;
+    right: -125px;
+    top:380px;
+    transform: rotate(-90deg);
+    height: 2.7rem;
+    width: 18rem;
+    background-color: rgb(83,87,102);
+    font-size: 1.8rem;
+    border: none;
+    color: white;
+    font-weight:bold;
+    text-align: left;
+    padding-left: 30px;
+    z-index: 1;
+    
+}
+
+
+.changePosition{
+    position: fixed;
+    right: 465px;
+}
+
+.fixedButtonContent{
+    position: fixed;
+    width:36.6rem;
+    height: 280px;
+    top: 263px;
+    right: 0px;
+    display: none;
+    z-index: 1;
+    /* background-color: yellow; */
+}
+
+.showButton{
+    display:inline-block;
+}
+
+.rupeesSize{
+    padding-right: 5px;
+    
+}
+
+.fixedButtonsymbol{
+    
+    text-align: right;
+    color: aliceblue;
+    transform: rotate(32deg);
+    position: absolute;
+    right: 20px;
+    top: 12px;
+}
+
+.rotateSymbol{
+    transform: rotate(90deg);
+    padding-right: 10px;
+}
+
+@media screen and (max-width:990px){
+
+    a.navbarleft{
+        text-align: center;
+    }
+
+    div.ms-auto{
+        padding: 2% 30%;
+    }
+
+    .showButton,.hoverareamens,.hoverareawomens,.hoverareakids,.hoverareahome,.hoverareabeauty,.hoverareastudio,.hoverareaprofile{
+        display:none;
+    }
+
+    .btn{
+        right: -125px;
+    }
+
+
+}
+
+.slideDiv1{
+    margin-right: 0px;
+    background-color:rgb(254,234,239);
+    display: inline-block;
+    position: fixed;
+    top: 260px;
+    right: 255px;
+    width: 333px;
+    height: 150px;
+}
+.slideDiv2{
+    margin-left:0px ;
+    background-color:rgb(254,234,239);
+    display: inline-block;
+    position: fixed;
+    top: 260px;
+    right: 0px;
+    width: 255px;
+    height: 150px;
+}
+.slideDiv3{
+    background-color:rgb(254,234,239);
+    display: inline-block;
+    width: 299px;
+    height: 90px;
+    position: fixed;
+    top: 410px;
+    right:289px;
+}
+.slideDiv4{
+    background-color:rgb(254,234,239);
+    display: inline-block;
+    width: 290px;
+    height: 90px;
+    position: fixed;
+    right: 0px;
+    top: 410px;
+}
+.slideDiv5{
+    background-color:rgb(254,234,239);
+    border:black ;
+    display: inline-block;
+    width: 194px;
+    height: 42px;
+    position: absolute;
+    bottom: 0px;
+    left: -2px;
+    font-size: 13px;
+    padding-left:20px;
+    text-align: center;
+    color:rgb(51, 52, 58);
+    font-weight:600;
+    padding-top: 10px;
+    
+}
+.slideDiv6{
+    background-color:rgb(254,234,239);
+    display: inline-block;
+    width: 120px;
+    height: 42px;
+    position: absolute;
+    left: 191px ;
+    bottom: 0px;
+    font-size: 13px;
+    padding-left: 20px;
+    text-align: center;
+    padding-top: 10px;
+    color:rgb(51, 52, 58);
+    font-weight:600;
+}
+.slideDiv7{
+    background-color:rgb(254,234,239);
+    display: inline-block;
+    width: 275px;
+    height: 42px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    font-size: 13px;
+    padding-left: 50px;
+    text-align: center;
+    padding-top: 10px;
+    color:rgb(51, 52, 58);
+    font-weight:600;
+}
+
+.div1-a{
+    color: rgb(62,65,82);
+    position: absolute;
+    font-size: 12px;
+    width: 290px;
+    right: 0px;
+    top:20px;
+}
+
+.div1-b{
+    color:rgb(62,65,82);
+    position: absolute;
+    font-size: 40px;
+    width: 290px;
+    top: 40px;
+    right: 0px;
+    font-weight:bold;
+}
+
+.div1-c{
+    color: rgb(62,65,82);
+    position: absolute;
+    font-size: 30px;
+    font-weight: 700;
+    top: 95px;
+    right: 0px;
+    width: 290px;
+
+}
+
+
+.div-2img{
+    position: fixed;
+    top: 270px;
+    right: 80px;
+    height: 140px;
+}
+
+.div3-a{
+    color:rgb(62,65,82);
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}
+
+.div3-b{
+    color:rgb(62,65,82); 
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    right: 60px;
+    font-weight: bold;
+}
+
+.div3-c{
+ color: rgb(62,65,82);
+ position: absolute;
+ top: 45px;
+ left: 40px;
+ font-size: 11px;
+}
+
+.div4-btn{
+    position: absolute;
+    border: none;
+    border-radius: 5px;
+    top: 16px;
+    left: 35px;
+    width: 170px;
+    height: 45px;
+    background-color: rgb(255,63,108);
+    color: white;
+}
+
+.div4-btn:hover{
+    background-color: rgb(212, 40, 80);
+}
+
+.div5-s1{
+    position: absolute;
+    left: 30px;
+    top: 12px;
+    color:rgb(3,166,133);
+}
+
+.div5-s2{
+    position: absolute;
+    left: 20px;
+    top: 12px;
+    color:rgb(3,166,133);
+}
+
+.div5-s3{
+    position: absolute;
+    left: 65px;
+    top: 14px;
+    color:rgb(3,166,133);
+}
+
+.border{
+    background-color: rgb(215, 215, 240);
+    /* z-index: -1; */
+    height: 20px;
+    position: absolute;
+    bottom: 25px;
+    width: 750px;
+}
+
+
+/* Navbar */
+.logo{
+width: 95px;
+padding-top: 5px;
+padding-left: 40px;
+}
+
+.navbarleft{
+    font-size: 13px;
+    color:rgb(2, 3, 6); 
+    font-weight: bold;
+    margin: auto 10px;
+    
+}
+
+.navbarsearch{
+    border: none;
+    background-color: rgb(245,245,246);
+    color:rgb(3,166,133);
+    width:45px;
+    height: 38px;
+    font-size: 14px;
+   
+   
+}
+.search{
+    width: 330px;
+    outline-style: none;    
+}
+
+.navbarright{
+    color:rgb(52, 54, 61); 
+    margin: auto 15px;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.icon{
+   font-size: 16px;
+}
+
+
+
+.displaydropdown{
+    position: fixed;
+    top: 89px;
+    left: 105px;
+    background-color: yellow;
+    height: 452px;
+    width: 1150px;
+    display: none;
+    /* z-index: 1;     */
+} 
+/* For mens */
+.hoverareamens{
+    position: fixed;
+    top:5px;
+    width: 65px;
+    height: 85px;  
+}
+.hoverareamens:hover .displaydropdown{
+    display: block;
+}
+.hoverareamens:hover{
+    border-bottom: red 20px;
+}
+.mensunderline{
+    position: relative;
+    top:78px;
+    background-color: red;
+    height: 4px;
+    display: none;
+}
+.hoverareamens:hover .mensunderline{
+    display: block;
+}
+/* For Womens  */
+.hoverareawomens{
+    position: fixed;
+    top:5px;
+    left: 229px;
+    width: 80px;
+    height: 85px;
+}
+.hoverareawomens:hover .displaydropdown{
+    display: block;
+}
+.womensunderline{
+    position: relative;
+    top:78px;
+    background-color: rgb(226, 111, 192);
+    height: 4px;
+    display: none;
+}
+.hoverareawomens:hover .womensunderline{
+    display: block;
+}
+/* FOr Kids */
+.hoverareakids{
+    position: fixed;
+    top:5px;
+    left: 310px;
+    width: 65px;
+    height: 85px;
+}
+.hoverareakids:hover .displaydropdown{
+    display: block;
+}
+.kidsunderline{
+    position: relative;
+    top:78px;
+    background-color: rgb(230, 127, 10);
+    height: 4px;
+    display: none;
+}
+.hoverareakids:hover .kidsunderline{
+    display: block;
+}
+/* For Home&Living */
+.hoverareahome{
+    position: fixed;
+    top:5px;
+    left: 375px;
+    width: 125px;
+    height: 85px;
+}
+.hoverareahome:hover .displaydropdown{
+    display: block;
+
+}
+.homeunderline{
+    position: relative;
+    top:78px;
+    background-color:rgb(255, 191, 0);
+    height: 4px;
+    display: none;
+}
+.hoverareahome:hover .homeunderline{
+    display: block;
+}
+/* For Beauty */
+.hoverareabeauty{
+    position: fixed;
+    top:5px;
+    left: 500px;
+    width: 86px;
+    height: 85px;
+}
+.hoverareabeauty:hover .displaydropdown{
+    display: block;
+}
+.beautyunderline{
+    position: relative;
+    top:78px;
+    background-color:rgb(177, 177, 250);
+    height: 4px;
+    display: none;
+}
+.hoverareabeauty:hover .beautyunderline{
+    display: block;
+}
+/* For Studio */
+.hoverareastudio{
+    position: fixed;
+    top:5px;
+    left: 588px;
+    width: 104px;
+    height: 85px;
+}
+.studiounderline{
+    position: relative;
+    top:78px;
+    background-color: rgb(231, 69, 182);
+    height: 4px;
+    display: none;
+}
+.hoverareastudio:hover .studiounderline{
+    display: block;
+}
+.studioContent{
+    position: fixed;
+    background-color: white;
+    top: 90px;
+    left: 320px;
+    width: 570px;
+    height: 452px;
+    display: none;
+}
+.hoverareastudio:hover .studioContent{
+    display: block;
+}
+.hoverareastudio img{
+    position: relative;
+    left: 210px;
+    top: 5px;
+    width: 130px;
+    height: 50px;
+}
+.hoverareastudio p{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+img#VK{
+    position: absolute;
+    top: 75px;
+    left: 0px;
+    margin: 40px;
+    width:500px ;
+    height: 250px;
+}
+
+.hoverareastudio  a{
+    text-decoration: none;
+    border: 1px solid rgb(205, 204, 204);
+    position: absolute;
+    bottom: 10px;
+    left: 180px;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    padding-top: 10px;
+}
+
+
+.common{
+    position: absolute;
+    top: 0px;
+    width: 230px;
+    font-size: 14px;
+}
+
+th a{
+    display: block;
+}
+
+thead a{
+    padding-top: 20px;
+    text-decoration: none;    
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+
+td a{
+    text-decoration: none;   
+    color: black;
+    display: block;
+    padding-left: 20px;
+}
+
+hr{
+    position: relative;
+    left: 20px;
+    width: 160px;
+    margin-top: 0px auto;
+    padding: 0px auto;
+}
+
+a:hover{
+    color: black;
+    font-weight: bold;
+}
+
+.col1{
+   background-color:white;
+}
+.col2{
+    background-color:rgb(250, 250, 251);
+    left: 230px; 
+}
+.col3{
+    background-color:white;
+    left:460px;
+}
+.col4{
+    background-color:rgb(250, 250, 251);
+    left:690px;
+}
+.col5{
+    background-color:white;
+    left:920px
+}
+
+a.colheading{
+    font-weight: bold;
+    margin-top: 5px;
+
+}
+a.colheading:hover{
+    font-weight: bold;
+}
+
+.hoverareamens a.colheading{
+    color: red;
+}
+.hoverareawomens a.colheading{
+    color:rgb(226, 111, 192);
+}
+.hoverareakids a.colheading{
+    color: rgb(230, 127, 10);
+}
+.hoverareahome a.colheading{
+    color:rgb(255, 191, 0);
+}
+.hoverareabeauty a.colheading{
+    color: rgb(155, 155, 245);
+}
+
+/* FootPaddingSection */
+#menscol1 tfoot td{
+    padding-bottom: 58px;
+}
+#menscol2 tfoot td{
+    padding-bottom: 66px;
+}
+#menscol3 tfoot td{
+    padding-bottom: 117px;
+}
+#menscol4 tfoot td{
+    padding-bottom: 81px;
+}
+#menscol5 tfoot td{
+    padding-bottom: 76px;
+}
+
+#womenscol1 tfoot td{
+    padding-bottom: 76px;
+}
+#womenscol2 tfoot td{
+    padding-bottom: 68px;
+}
+#womenscol3 tfoot td{
+    padding-bottom: 104px;
+}
+#womenscol4 tfoot td{
+    padding-bottom: 81px;
+}
+#womenscol5 tfoot td{
+    padding-bottom: 56px;
+}
+
+#kidscol1 tfoot td{
+    padding-bottom: 96px;
+}
+#kidscol2 tfoot td{
+    padding-bottom: 73px;
+}
+#kidscol3 tfoot td{
+    padding-bottom: 58px;
+}
+#kidscol4 tfoot td{
+    padding-bottom: 132px;
+}
+#kidscol5 tfoot td{
+    padding-bottom: 17px;
+}
+
+#homecol1 tfoot td{
+    padding-bottom: 91px;
+}
+#homecol2 tfoot td{
+    padding-bottom: 68px;
+}
+#homecol3 tfoot td{
+    padding-bottom: 53px;
+}
+#homecol4 tfoot td{
+    padding-bottom: 63px;
+}
+#homecol5 tfoot td{
+    padding-bottom: 27px;
+}
+
+#beautycol1 tfoot td{
+    padding-bottom: 119px;
+}
+#beautycol2 tfoot td{
+    padding-bottom: 63px;
+}
+#beautycol3 tfoot td{
+    padding-bottom: 58px;
+}
+#beautycol4 tfoot td{
+    padding-bottom: 0px;
+}
+#beautycol5 tfoot td{
+    padding-bottom: 50px;
+}
+
+/* Profile */
+.navbarright a{
+    color: black;
+}
+.hoverareaprofile{
+    position: fixed;
+    top: 28px;
+    right: 155px;
+    width: 35px;
+    height: 60px;
+}
+.profileblock{
+    position: fixed;
+    top: 88px;
+    right: 20px;
+    background-color: white;
+    height: 450px;
+    width: 300px;
+    display: none;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 13px;
+}
+.hoverareaprofile:hover .profileblock{
+    display: block;
+}
+.welcome{
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.hoverareaprofile button{
+    background-color: white;
+    color: rgb(220, 34, 93);
+    border:1px solid rgb(188, 185, 185);
+    height: 40px;
+    width: 150px;
+    font-size: 14px;
+    font-weight: bold;
+   
+}
+.hoverareaprofile hr{
+    left: 0px;
+    width: 250px;
+}
+.new{
+    background-color:rgb(249, 107, 152);
+    color: white;
+    font-weight: 900;
+    height: 15px;
+    display: inline-block;
+    position: absolute;
+    top: 264px;
+    left: 130px;
+    width:35px;
+    text-align: center;
+    border-radius: 5px;
+}
+.profileblock table{
+    margin-top: 0px;   
+}
+.profileblock a{
+    font-size: 14px;
+    margin-top: 2px;
+    padding-left: 0px;
+}
+
+/* Main Banner */
+#main-banner1{
+    padding-top: 100px;
+}
+
+#main-banner1 img{
+    width: 25%;
+    margin: 0px -2px;
+}
+
+.omgDeals img{
+    margin: -2px;
+    width: 8.3%;
+}
+
+.similarSizedSlide img{
+    width: 10%;
+    margin: -2px;
+}
+
+.shopByCategories img{
+    width: 16.7%;
+    margin: -2px;
+}
+
+
+/* footer */
+footer{
+    background-color: rgb(250,251,252);
+    color: rgb(105,110,121);
+    width: 80%;
+    position: relative;
+    top: 30px;
+    left:10% ;
+    right: 10%;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+footer a{
+    color:  rgb(105,110,121);
+}
+
+footer a:hover{
+    color: rgb(105,110,121); 
+    font-weight: 400;
+}
+
+footer hr{
+    width: 100%;
+}
+
+.ftable1{
+   width: 15%;
+   margin-bottom: 20px;
+}
+
+footer .fa-brands{
+    margin-right: 15px;
+}
+
+.footerDiv1Head{
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.ftable2{
+   position: absolute;
+   top: 20px;
+   left: 18%;
+   width: 17%;
+}
+
+.ftable3{
+    position: absolute;
+    top: 20px;
+    left: 40%;
+    width: 30%;
+}
+
+.ftable3 img{
+    margin-right: 10px;
+}
+
+.ftable4{
+    position: absolute;
+    top: 30px;
+    left: 75%;
+    width: 24%;
+    
+}
+
+
+li{
+    margin: 10px 0px;
+}
+
+/* div2 */
+
+.footerDiv2 p{
+    display: inline-block;
+    font-size: 14px;
+    height: 10px;
+}
+
+.footerDiv2pop{
+    padding-left: 18px;
+}
+
+.footer-contactus {
+    margin: 30px 0px;
+}
+
+ span{
+    color:rgb(120,108,208);
+    font-weight: bold;
+    font-size: 15px;
+}
+.footer-contactus td{
+    width: 550px;
+    padding-left: 18px;
+}
+
+.footerAddress .td1{
+    width: 750px;
+    padding-left: 18px;
+}
+
+.footerDescription{
+    color: rgb(59, 61, 72);
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.myntraDescription{
+    font-size: 13px;
+    padding-left: 18px;
+}
+
+li span {
+    color: rgb(59, 61, 72);
+    font-size: 13px;
+}
+
+ul {
+    margin: -10px auto;
+}
+
